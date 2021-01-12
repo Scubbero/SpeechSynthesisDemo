@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    background: linear-gradient(145deg, #57999D 12.3%, #20749F 88.36%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    width: 700px;
+    max-width: 98%;
+
+    border-radius: 30px;
+    background-color: #FFF9E5;
+
+    padding: 30px;
+}
+
+#app-container h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#app-container #to-be-spoken {
+    margin-bottom: 30px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+#app-container .voice-parameter {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 5px;
+}
+
+#app-container .voice-parameter label{
+    width: 100px;
+}
+
+#app-container .voice-parameter input,
+#app-container .voice-parameter select {
+    flex: 1 ;
+}
+
+#app-container #speak-button {
+    margin-top: 15px;
+    height: 35px;
+
+    background-color: #20749F;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 0;
+
+    cursor: pointer;
+
+    font-weight: 600;
+}
